@@ -1,0 +1,23 @@
+{% extends "_layout.twig" %}
+
+{% block content %}
+<section class="hero">
+  <div class="hero-inner">
+    <h1>مرحبا بك في متجرنا - Bork1</h1>
+    <p>قالب لتوسع قابل للتعديل بالكامل بالعربية (RTL). شاهد المنتجات أدناه.</p>
+  </div>
+</section>
+
+<section class="products">
+  <div class="grid">
+  {% for p in products %}
+    <article class="card">
+      <img src="{{ p.image }}" alt="{{ p.name }}">
+      <h3>{{ p.name }}</h3>
+      <p class="price">{{ p.price }} {{ currency }}</p>
+      <a class="btn" href="#">عرض المنتج</a>
+    </article>
+  {% endfor %}
+  </div>
+</section>
+{% endblock %}

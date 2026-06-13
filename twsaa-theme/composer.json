@@ -1,0 +1,9 @@
+{
+  "name": "twsaa-theme-bork1",
+  "description": "Twsaa Twig Theme - Bork1 custom theme",
+  "require": {
+    "php": ">=7.4",
+    "twig/twig": "^3.0"
+  },
+  "type": "project"
+}

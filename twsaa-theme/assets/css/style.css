@@ -1,0 +1,31 @@
+/* assets/css/style.css
+   ألوان: أحمر غامق خفيف (#b71c1c - dark red light), أسود فاتح خفيف (#1f1f1f) مع تدرجات بسيطة
+*/
+:root{
+  --color-primary:#b71c1c; /* أحمر غامق */
+  --color-dark:#1f1f1f;    /* أسود فاتح */
+  --bg:#0f0f10; /* خلفية داكنة */
+  --card:#121212;
+  --accent:#e53935;
+  --text:#ececec;
+}
+*{box-sizing:border-box}
+body{font-family:Segoe UI, system-ui, 'Noto Naskh Arabic', Arial, sans-serif;background:var(--bg);color:var(--text);margin:0;padding:0}
+.wrap{max-width:1100px;margin:0 auto;padding:1rem}
+.site-header{background:linear-gradient(90deg, rgba(0,0,0,0.6), rgba(0,0,0,0.4));border-bottom:1px solid rgba(255,255,255,0.04)}
+.site-header .wrap{display:flex;align-items:center;justify-content:space-between}
+.logo{color:var(--text);font-weight:800;text-decoration:none}
+.nav a{color:rgba(255,255,255,0.85);margin-left:1rem;text-decoration:none}
+.hero{padding:2rem 0;text-align:right}
+.hero h1{margin:0 0 0.5rem 0;font-size:2rem;color:var(--accent)}
+.products .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1rem}
+.card{background:var(--card);padding:1rem;border-radius:10px;box-shadow:0 6px 24px rgba(0,0,0,0.5);text-align:right}
+.card img{width:100%;height:160px;object-fit:cover;border-radius:8px}
+.card h3{margin:0.5rem 0 0;font-size:1.1rem}
+.price{color:var(--color-primary);font-weight:700;margin:0.5rem 0}
+.btn{display:inline-block;background:var(--color-primary);color:#fff;padding:0.5rem 0.75rem;border-radius:8px;text-decoration:none}
+.product-page{display:grid;grid-template-columns:1fr 1fr;gap:1rem;padding:1rem 0}
+.product-page img{width:100%;border-radius:10px}
+.product-info{background:var(--card);padding:1rem;border-radius:8px}
+.site-footer{padding:1rem 0;margin-top:2rem;color:rgba(255,255,255,0.6)}
+@media (max-width:800px){.product-page{grid-template-columns:1fr}}

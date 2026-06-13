@@ -1,0 +1,4 @@
+[
+  {"id":"p1","name":"منتج تجريبي 1","price":99,"image":"/twsaa-theme/assets/images/product1.jpg","description":"وصف قصير للمنتج 1"},
+  {"id":"p2","name":"منتج تجريبي 2","price":149,"image":"/twsaa-theme/assets/images/product2.jpg","description":"وصف قصير للمنتج 2"}
+]
