@@ -1,4 +1,42 @@
 [
-  {"id":"p1","name":"منتج تجريبي 1","price":99,"image":"/twsaa-theme/assets/images/product1.jpg","description":"وصف قصير للمنتج 1"},
-  {"id":"p2","name":"منتج تجريبي 2","price":149,"image":"/twsaa-theme/assets/images/product2.jpg","description":"وصف قصير للمنتج 2"}
+  {
+    "id": "p1",
+    "name": "اشتراك Shahid VIP — شهر (تسليم فوري)",
+    "price": 29,
+    "image": "/twsaa-theme/assets/images/product1.jpg",
+    "description": "اشتراك شهري لشاهد VIP — مشاهدة أفلام ومسلسلات بجودة عالية.",
+    "url": "https://bork1.com/shahid-vip-one-month-subscription-full-account-instant-delivery"
+  },
+  {
+    "id": "p2",
+    "name": "اشتراك Shahid VIP — 3 أشهر (تفعيل على بريدك)",
+    "price": 79,
+    "image": "/twsaa-theme/assets/images/product2.jpg",
+    "description": "باقة لثلاثة أشهر لشاهد VIP مع تفعيل على بريدك الإلكتروني.",
+    "url": "https://bork1.com/shahid-vip-subscription-three-month-activation-on-your-own-email"
+  },
+  {
+    "id": "p3",
+    "name": "اشتراك Shahid VIP — سنة (تفعيل عبر البريد)",
+    "price": 249,
+    "image": "/twsaa-theme/assets/images/product3.jpg",
+    "description": "اشتراك سنوي لشاهد VIP مع تفعيل عبر البريد الإلكتروني.",
+    "url": "https://bork1.com/shahid-vip-one-year-subscription-email-activation"
+  },
+  {
+    "id": "p4",
+    "name": "اشتراك IPTV — شهر واحد",
+    "price": 19,
+    "image": "/twsaa-theme/assets/images/product4.jpg",
+    "description": "باقة IPTV لشهر واحد — قنوات رياضية وأفلام ومسلسلات.",
+    "url": "https://bork1.com/iptv-subscription-1-month"
+  },
+  {
+    "id": "p5",
+    "name": "اشتراك OSN Premium — شهر (حساب كامل)",
+    "price": 39,
+    "image": "/twsaa-theme/assets/images/product5.jpg",
+    "description": "اشتراك شهري OSN Premium — وصول لكامل المحتوى المميز.",
+    "url": "https://bork1.com/osn-premium-month-full-account"
+  }
 ]
